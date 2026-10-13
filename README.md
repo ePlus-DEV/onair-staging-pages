@@ -25,7 +25,7 @@
 
 ## Indexing and image policy
 
-**This GitHub Pages not production currently carries `noindex` metadata.** Production search indexing must not be enabled until a separately reviewed DNS/SEO cutover confirms canonical URLs, robots, sitemap, TLS, and analytics. Do not confuse a successful Pages push with a verified live DNS cutover.
+**Staging is deliberately `noindex`**: no production sitemap, canonical or GA4 is emitted from the `develop` deployment. The separate `main` production Pages build is indexable and includes a production sitemap, canonical links and GA4 (`G-ETDY41KBBJ`). A successful Pages push alone does not verify live DNS or TLS routing.
 
 Regular website builds use `npm run generate:site`, retaining station logos but excluding the large per-station Open Graph JPEG collection so the published site stays under the GitHub Pages **1 GB site limit**.
 
