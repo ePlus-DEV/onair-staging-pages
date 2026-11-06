@@ -1,0 +1,1 @@
+import{on as e}from"./JOms01kH.js";function t(e,t=`/`){if(typeof e!=`string`||!e.startsWith(`/`)||e.startsWith(`//`))return e;let n=String(t).split(`/`).filter(Boolean);if(!n.length)return e;let r=`/`+n.join(`/`)+`/`;return e.startsWith(r)||e===r.slice(0,-1)?e:r+e.slice(1)}function n(){let n=e().app.baseURL||`/`;return e=>t(e||``,n)}export{n as t};
