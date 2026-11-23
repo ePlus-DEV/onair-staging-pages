@@ -1,0 +1,1 @@
+import{t as e}from"./gLVGkq69.js";import{t}from"./7E38AABQ.js";import{rt as n}from"#entry";async function r(t,n){return await e(n(t))}var i=()=>{let e=t();return n(`global-radio-provider-index`,()=>r(`/catalog/providers/index.json`,e))},a=()=>{let e=t();return n(`global-radio-apple-music`,()=>r(`/catalog/providers/apple-music.json`,e))};export{i as n,a as t};
